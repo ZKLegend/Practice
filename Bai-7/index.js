@@ -26,10 +26,8 @@ function getNumber() {
     }
 }
 
-button.addEventListener('click', getNumber);
-
-
 function createTable() {
+    getNumber;
     let value = input.value;
     if (value > 12) {
         alert("Only up to 12");
