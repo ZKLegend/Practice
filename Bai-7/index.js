@@ -10,24 +10,21 @@ document.querySelector('body').appendChild(table);
 
 
 
-
-
-function getNumber() {
-    let value = input.value;
-        if (value > 12) {
-            return;
-        }
-    let tr = document.createElement('tr');
-    thead.appendChild(tr);
-    for (let i = 0; i <= value; i++) {
-        let th = document.createElement('th');
-        th.innerHTML = i;
-        tr.appendChild(th);
-    }
-}
+// function getNumber() {
+//     let value = input.value;
+//         if (value > 12) {
+//             return;
+//         }
+//     let tr = document.createElement('tr');
+//     thead.appendChild(tr);
+//     for (let i = 0; i <= value; i++) {
+//         let th = document.createElement('th');
+//         th.innerHTML = i;
+//         tr.appendChild(th);
+//     }
+// }
 
 function createTable() {
-    getNumber;
     let value = input.value;
     if (value > 12) {
         alert("Only up to 12");
